@@ -2,25 +2,28 @@
   display: flex;
   min-height: 100vh;
   background-color: #ffffff;
+  width: 100%;
 }
 
 .login-logo {
-  flex: 1;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #f8f9fa;
   padding: 2rem;
+  box-sizing: border-box;
 }
 
 .login-form {
-  flex: 1;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 2rem;
+  box-sizing: border-box;
 }
 
 .login-image {
@@ -65,4 +68,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* 添加响应式样式确保在小屏幕上也能良好显示 */
+@media screen and (max-width: 768px) {
+  .login-container {
+    flex-direction: column;
+  }
+  
+  .login-logo,
+  .login-form {
+    width: 100%;
+  }
+  
+  .login-image {
+    max-width: 90%;
+  }
 }

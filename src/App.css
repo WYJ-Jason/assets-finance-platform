@@ -12,14 +12,35 @@
   --hover-color: #f1f5f9; /* 悬停效果颜色 */
 }
 
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 /* 全局样式 */
 body {
   background-color: var(--background-color);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: var(--text-primary);
-  margin: 0;
-  padding: 0;
+  min-height: 100vh;
+  position: relative;
 }
 
 /* Page Layout */
