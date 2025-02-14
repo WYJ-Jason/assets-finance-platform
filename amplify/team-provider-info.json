@@ -10,6 +10,11 @@
       "StackName": "amplify-assetsfinance-dev-e89e8",
       "StackId": "arn:aws:cloudformation:ap-southeast-2:586794479095:stack/amplify-assetsfinance-dev-e89e8/7537cc10-ea7c-11ef-8588-0a75b96bc73d",
       "AmplifyAppId": "d3glkda2brm6eh"
+    },
+    "categories": {
+      "auth": {
+        "assetsfinance3efca8da": {}
+      }
     }
   }
 }

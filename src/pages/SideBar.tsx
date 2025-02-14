@@ -121,11 +121,10 @@ const Sidebar: React.FC<SidebarProps> = ({ onCollapse }) => {
           </nav>
 
           {!isCollapsed && (
-            <div className="sidebar-footer">
               <div className="footer-content">
                 <div className="footer-logo-container">
                   <Image
-                    src="/logo-daimlinc.png"
+                    src="/Logo-wyj.png"
                     alt="Daimlinc Logo"
                     className="footer-logo"
                     objectFit="contain"
@@ -135,7 +134,6 @@ const Sidebar: React.FC<SidebarProps> = ({ onCollapse }) => {
                   &copy; {new Date().getFullYear()} Jason
                 </p>
               </div>
-            </div>
           )}
           <Button
             className="signout-btn"
